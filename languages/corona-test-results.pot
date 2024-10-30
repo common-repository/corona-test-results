@@ -1,0 +1,1974 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Corona Test Results\n"
+"POT-Creation-Date: 2022-02-16 11:02+0100\n"
+"PO-Revision-Date: 2021-03-03 10:18+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: corona-test-results.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;"
+"esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;"
+"__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: dist\n"
+"X-Poedit-SearchPathExcluded-2: lib\n"
+"X-Poedit-SearchPathExcluded-3: node_modules\n"
+"X-Poedit-SearchPathExcluded-4: assets/js/pdfmake\n"
+"X-Poedit-SearchPathExcluded-5: vendor\n"
+"X-Poedit-SearchPathExcluded-6: svn\n"
+
+#: corona-test-results-admin-settings-general.php:60
+#: corona-test-results-admin-settings.php:142 corona-test-results-admin-settings.php:156
+msgid "Certificates"
+msgstr ""
+
+#: corona-test-results-admin-settings-general.php:69
+#, php-format
+msgid ""
+"In order to activate the generation of certificates, encryption functionality must be "
+"activated first. (see %s)"
+msgstr ""
+
+#: corona-test-results-admin-settings-general.php:70
+#: corona-test-results-admin-settings.php:289 corona-test-results-global.php:373
+msgid "Security"
+msgstr ""
+
+#: corona-test-results-admin-settings-general.php:76
+msgid ""
+"With this functionality enabled, additional fields (e.g. address and contact details of "
+"the tested person) will be added to the test registration form. All personal data will "
+"be stored encrypted with a PIN that is written on the documents generated on test "
+"registration.\n"
+"A certificate containing the test result and personal data can be generated and "
+"optionally sent via email when assigning each test result. The PIN is needed for "
+"certificate generation by the testing personnel and also as a password for opening the "
+"certificate PDF file."
+msgstr ""
+
+#. translators: opening and closing tags of mailto link
+#: corona-test-results-admin-settings-general.php:87
+#, php-format
+msgid ""
+"Do you need a customized certificate template, e.g. one provided by your city/state/"
+"country? %sSend us your PDF template%s and we'll make you an offer for a customized "
+"integration."
+msgstr ""
+
+#: corona-test-results-admin-settings-general.php:99
+msgid "Enable integration"
+msgstr ""
+
+#: corona-test-results-admin-settings-general.php:100
+msgid "Request certificate by default"
+msgstr ""
+
+#: corona-test-results-admin-settings-general.php:105
+#: corona-test-results-admin-settings-general.php:114
+msgid "\"Conducted by\" name"
+msgstr ""
+
+#: corona-test-results-admin-settings-general.php:106
+#: corona-test-results-admin-settings-general.php:113
+msgid "Signature Image"
+msgstr ""
+
+#. translators: %s: translated labels of settings above (1) 'Signature Image' (2) '"Conducted by" name'
+#: corona-test-results-admin-settings-general.php:112
+#, php-format
+msgid "Base %s and %s on"
+msgstr ""
+
+#: corona-test-results-admin-settings-general.php:121
+msgid "Test details template"
+msgstr ""
+
+#: corona-test-results-admin-settings-general.php:122
+msgid "Trade names of test kits used"
+msgstr ""
+
+#: corona-test-results-admin-settings-general.php:123
+msgid "Testing site"
+msgstr ""
+
+#: corona-test-results-admin-settings-general.php:123 corona-test-results-admin.php:375
+msgid "(designation, address, phone)"
+msgstr ""
+
+#: corona-test-results-admin-settings-general.php:124
+msgid "Stamp Image"
+msgstr ""
+
+#: corona-test-results-admin-settings-general.php:126 corona-test-results-admin.php:384
+msgid "Data protection notice"
+msgstr ""
+
+#: corona-test-results-admin-settings-general.php:127
+msgid "Additional (legal) text"
+msgstr ""
+
+#: corona-test-results-admin-settings-general.php:129
+msgid "Email subject"
+msgstr ""
+
+#: corona-test-results-admin-settings-general.php:130
+msgid "Email text"
+msgstr ""
+
+#: corona-test-results-admin-settings-general.php:264
+msgid ""
+"An error occurred while trying to verify your license key. Please try again in a short "
+"while."
+msgstr ""
+
+#: corona-test-results-admin-settings-general.php:265
+msgid "The key that you entered is invalid."
+msgstr ""
+
+#: corona-test-results-admin-settings-general.php:266
+msgid "This license is already registered to a different domain."
+msgstr ""
+
+#. translators: support link with text "contact us"
+#: corona-test-results-admin-settings-general.php:269
+#, php-format
+msgid ""
+"The activation request for the current domain could not be verified. This will usually "
+"happen on development servers that are not publically available.\n"
+"If this is happening to you on a live domain, please %s to have this domain whitelisted!"
+msgstr ""
+
+#: corona-test-results-admin-settings-general.php:270
+#: premium/corona-test-results-admin.premium.php:488
+msgid "contact us"
+msgstr ""
+
+#: corona-test-results-admin-settings-general.php:309
+msgid ""
+"Thank you! Your license has been activated and you can now make use of all the features."
+msgstr ""
+
+#: corona-test-results-admin-settings-general.php:420
+msgid ""
+"Should contain the name of the person conducting the test and, if applicable, the person "
+"supervising."
+msgstr ""
+
+#: corona-test-results-admin-settings-general.php:422
+msgid ""
+"This and the next option will be available to all accounts with access to the plugin so "
+"set individually."
+msgstr ""
+
+#. translators: %s: 1) aspect ratio wrapped in <code></code> 2) width x height wrapped in <code></code>
+#: corona-test-results-admin-settings-general.php:440
+#: corona-test-results-admin-settings.php:834
+#, php-format
+msgid ""
+"Aspect ratio about %s, optimal size %s or larger with same ratio. SVG or PNG with "
+"transparency preferred."
+msgstr ""
+
+#. translators: %s: Link to the Certificates tab of the settings
+#: corona-test-results-admin-settings-general.php:490
+#, php-format
+msgid ""
+"You have not yet provided your name and signature to show up on the certificates. Please "
+"do so in the %s."
+msgstr ""
+
+#: corona-test-results-admin-settings-general.php:510
+msgid "Test Results Settings"
+msgstr ""
+
+#: corona-test-results-admin-settings-general.php:520 corona-test-results-admin.php:1701
+msgid "You are using the free version of the plugin."
+msgstr ""
+
+#. translators: %s: formatted string "Premium"
+#: corona-test-results-admin-settings-general.php:523
+#, php-format
+msgid ""
+"All %s settings will not be saved, and result pages will always display their default "
+"content."
+msgstr ""
+
+#. translators: %s: (1) formatted string "Premium", (2,3) opening and closing link tags
+#: corona-test-results-admin-settings-general.php:528 corona-test-results-admin.php:1704
+#, php-format
+msgid ""
+"%sGet the %s version%s in order to customize code generation, documents and result page "
+"contents, create certificates, integrate appointment bookings and more."
+msgstr ""
+
+#. translators: YouTube explanation video URL
+#: corona-test-results-admin-settings-general.php:670
+msgid "https://www.youtube-nocookie.com/embed/buk8abJzbs0?start=22&cc_load_policy=1"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:29
+msgid "Your license key was activated successfully!"
+msgstr ""
+
+#. translators: %s: Link to the plugin upload page
+#: corona-test-results-admin-settings.php:33
+#, php-format
+msgid ""
+"Visit the %s page in order to upgrade the plugin, uploading the file provided to you "
+"after purchase."
+msgstr ""
+
+#. translators: %s: linked text to the license key tab
+#: corona-test-results-admin-settings.php:44
+#, php-format
+msgid ""
+"Thank you for your purchase! Now you just need to %s to make use of alle the features "
+"and get the latest updates of the plugin."
+msgstr ""
+
+#. translators: text for the link to the license key tab, gramatically fitting into the sentence above
+#: corona-test-results-admin-settings.php:46
+msgid "activate your license key"
+msgstr ""
+
+#. translators: %s: result page name
+#: corona-test-results-admin-settings.php:82
+#, php-format
+msgid "The page for &quot;%s&quot; has been moved to trash."
+msgstr ""
+
+#. translators: %s: result page name
+#: corona-test-results-admin-settings.php:85
+#, php-format
+msgid "The page for &quot;%s&quot; does no longer exist."
+msgstr ""
+
+#. translators: %s: result page name
+#: corona-test-results-admin-settings.php:89
+#, php-format
+msgid "The page for &quot;%s&quot; is not set."
+msgstr ""
+
+#: corona-test-results-admin-settings.php:121
+#, php-format
+msgid "&quot;%s&quot; is set to the same page as &quot;%s&quot;."
+msgstr ""
+
+#. translators: %s: Link to the Certificates tab of the settings
+#: corona-test-results-admin-settings.php:141
+#, php-format
+msgid ""
+"You have not yet provided the trade name(s) of the test kit(s) you are using. Please do "
+"so in the %s settings. This name shows up on the generated certificates."
+msgstr ""
+
+#. translators: %s: Link to the Certificates tab of the settings
+#: corona-test-results-admin-settings.php:155
+#, php-format
+msgid ""
+"You have not yet provided the details (name, address, phone, etc.) of your testing site "
+"to show up on the certificates. Please do so in the %s settings."
+msgstr ""
+
+#. translators: %s: 1) Name of the data transfer integration 2) Link to the Data Transfer tab of the settings
+#: corona-test-results-admin-settings.php:172
+#, php-format
+msgid ""
+"The data transfer integration for %s is activated, but not all required files are "
+"configured or valid. Please check the %s settings."
+msgstr ""
+
+#: corona-test-results-admin-settings.php:173 corona-test-results-admin.php:398
+#: corona-test-results-admin.php:1136 corona-test-results-admin.php:1390
+#: premium/corona-test-results-shortcodes.premium.php:196
+msgid "Corona-Warn-App"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:174 corona-test-results-admin-settings.php:285
+#: corona-test-results-admin.php:1390 corona-test-results-admin.php:2174
+#: premium/corona-test-results-shortcodes.premium.php:196
+msgid "Data Transfer"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:194
+msgid "Code Generation"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:195
+msgid "Code Length"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:196
+msgid "Additional block list"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:199
+msgid "PDF Template"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:206
+msgid "Custom Field"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:215
+msgid "Text block top left"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:216
+msgid "Logo Image"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:217
+msgid "Text block top right"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:218
+msgid "Text block salutation"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:219
+msgid "Text block before URL"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:220
+msgid "Text block after URL"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:221 corona-test-results-admin-settings.php:225
+msgid "Text block bottom"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:225
+msgid "(if certificate requested)"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:229
+msgid "Additional text on page 2"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:230
+msgid "Show &quot;powered by&quot; Notice"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:233
+msgid "Label Layout"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:234
+msgid "Width"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:235
+msgid "Height"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:236
+msgid "Font size"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:239
+msgid "Assignation"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:240
+msgid "Entries per page"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:241
+msgid "Automatically move assigned codes to trash"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:242
+msgid "Automatically delete trashed codes permanently"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:245
+msgid "Result Page & Content"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:255
+msgid "Appointment booking"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:256
+msgid "Future appointments"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:259
+msgid "Booking integrations"
+msgstr ""
+
+#. translators: %s: name of the booking tool
+#: corona-test-results-admin-settings.php:266
+#, php-format
+msgid "Enable %s integration"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:278 corona-test-results-global.php:42
+#: corona-test-results-global.php:251
+msgid "Quick Check-In"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:280
+msgid "Repeat email address input"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:281
+msgid "Show additional checkbox"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:282
+msgid "Info Poster"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:286 corona-test-results-admin-settings.php:1164
+msgid "Corona-Warn-App (Germany)"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:290
+msgid "Users with access to code registration"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:291
+msgid "Users with access to code assignation"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:292
+msgid "Encryption"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:293
+msgid "Data Protection Consent"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:294
+msgid "Data Deletion"
+msgstr ""
+
+#. translators: %s: formatted string "Premium"
+#: corona-test-results-admin-settings.php:298
+#, php-format
+msgid "%s License Activation"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:299
+msgid "License Key"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:308
+#, php-format
+msgid ""
+"The codes for assignation and retrieval of test results are generated automatically "
+"using uppercase alphanumeric characters, with the exception of the easily confused "
+"letters and numbers %s."
+msgstr ""
+
+#: corona-test-results-admin-settings.php:312
+msgid ""
+"Some easy-to-guess combinations and an internal list of bad words will also be avoided, "
+"which further reduces the number of available combinations."
+msgstr ""
+
+#: corona-test-results-admin-settings.php:329
+msgid ""
+"If a generated code would include one of the strings entered in the field below "
+"(separated by comma, space or line break), that code will be discarded and a new one "
+"will be generated instead."
+msgstr ""
+
+#: corona-test-results-admin-settings.php:330 corona-test-results-admin-settings.php:984
+#: corona-test-results-admin-settings.php:1455 corona-test-results-admin.php:2219
+#: corona-test-results-admin.php:2827
+msgid "Note:"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:330
+msgid ""
+"Blocking too many short strings or single characters can greatly reduce the number of "
+"available combinations or even result in failing code generation."
+msgstr ""
+
+#: corona-test-results-admin-settings.php:346
+msgid "Change the text blocks and logo appearing on the generated PDF documents."
+msgstr ""
+
+#: corona-test-results-admin-settings.php:349
+msgid "Available placeholders in text blocks:"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:385
+msgid ""
+"Leave empty if you don't need an additional field, e.g. for a patient ID. Otherwise, "
+"this will be the label for the field in the test registration form."
+msgstr ""
+
+#: corona-test-results-admin-settings.php:401 corona-test-results-admin-settings.php:430
+#: corona-test-results-admin-settings.php:448 corona-test-results-admin-settings.php:464
+#: corona-test-results-admin-settings.php:481 corona-test-results-admin-settings.php:498
+#: corona-test-results-admin-settings.php:515 corona-test-results-admin-settings.php:532
+#: corona-test-results-admin-settings.php:854 corona-test-results-admin-settings.php:875
+#: corona-test-results-admin-settings.php:893 corona-test-results-admin-settings.php:909
+#: corona-test-results-admin-settings.php:961 corona-test-results-admin-settings.php:998
+#: corona-test-results-admin-settings.php:1009
+msgid "Reset To Default"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:403
+msgid ""
+"Usually used to display the test subject's data as entered in the test registration form."
+msgstr ""
+
+#: corona-test-results-admin-settings.php:403 corona-test-results-admin-settings.php:449
+#: corona-test-results-admin-settings.php:466 corona-test-results-admin-settings.php:483
+#: corona-test-results-admin-settings.php:500 corona-test-results-admin-settings.php:517
+msgid "Displayed only on the handout for the tested person."
+msgstr ""
+
+#: corona-test-results-admin-settings.php:432
+msgid ""
+"Usually used to provide information about the testing location, e.g. a medical "
+"practice's name and contact data."
+msgstr ""
+
+#: corona-test-results-admin-settings.php:432
+msgid "Displayed on both the handout and the on-site record."
+msgstr ""
+
+#: corona-test-results-admin-settings.php:500 corona-test-results-admin-settings.php:517
+msgid "Usually used for a data privacy statement."
+msgstr ""
+
+#. translators: %s: markup for underscore character wrapped in <code></code>
+#: corona-test-results-admin-settings.php:538
+#, php-format
+msgid ""
+"You can use this to add a text block to the bottom of the second page (for on-site "
+"safekeeping), e.g. to have the patient sign off on data protecion, consent, or anything "
+"else that may be required by applicable law or your local health authority. You can use "
+"multiple underscore characters (%s) to make a line for the signature."
+msgstr ""
+
+#: corona-test-results-admin-settings.php:541
+msgid ""
+"When this text block is not empty, the font size of the data table on the second page "
+"will be reduced in order to save space."
+msgstr ""
+
+#: corona-test-results-admin-settings.php:550
+msgid "Support plugin developer"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:561 corona-test-results-admin-settings.php:569
+msgid "millimeters"
+msgstr ""
+
+#. translators: font size unit for pdfmake
+#: corona-test-results-admin-settings.php:579
+msgid "pt"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:581
+msgid "Leave blank to determine automatically."
+msgstr ""
+
+#: corona-test-results-admin-settings.php:604 corona-test-results-admin-settings.php:622
+#, php-format
+msgid "after %s days"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:609
+msgid "Based on the time of the status change. 0 = deactivated"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:627
+msgid "Based on the time when the code was moved to trash. 0 = deactivated"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:637
+msgid ""
+"The result page should contain a form for checking the test result for a given code. Its "
+"URL is displayed on the generated PDF document."
+msgstr ""
+
+#: corona-test-results-admin-settings.php:640
+msgid ""
+"The content pages only provide the contents to be displayed depending on the test status "
+"and therefore do not have to be published. It is recomended to leave them in draft "
+"status, so they are not publicly accessible without entering a valid code."
+msgstr ""
+
+#: corona-test-results-admin-settings.php:664
+msgid "No pages available"
+msgstr ""
+
+#. translators: %s: self-closing shortcode for the retrieval form
+#: corona-test-results-admin-settings.php:676
+#, php-format
+msgid "Use the shortcode %s to embed the result retrieval form."
+msgstr ""
+
+#. translators: %s: encapsulating shortcode for the retrieval form
+#: corona-test-results-admin-settings.php:682
+#, php-format
+msgid ""
+"If you want to use a custom-styled input and button, put your markup inside %s, making "
+"sure to set the following attributes on the <input> element:"
+msgstr ""
+
+#. translators: %s: (1) noerrors attribute (2) shortcode for form errors
+#: corona-test-results-admin-settings.php:689
+#, php-format
+msgid ""
+"To influence where error messages appear, set the %s attribute on the form shortcode and "
+"use the shortcode %s where you want the error messages to appear."
+msgstr ""
+
+#. translators: %s: (1,2) formatted shortcodes
+#: corona-test-results-admin-settings.php:698
+#, php-format
+msgid ""
+"Use the shortcode %s to display the code that was entered, and %s to display a pre-"
+"formatted, color-coded box with the result."
+msgstr ""
+
+#. translators: %s: (1,2) formatted shortcodes
+#: corona-test-results-admin-settings.php:707
+#, php-format
+msgid "Use the shortcode %s to display the form for generating the vCard QR code."
+msgstr ""
+
+#: corona-test-results-admin-settings.php:746 corona-test-results-admin-settings.php:1115
+#: corona-test-results-admin.php:1950 corona-test-results-admin.php:2044
+msgid ""
+"To ensure data security, this functionality can only be used when accessed via HTTPS."
+msgstr ""
+
+#: corona-test-results-admin-settings.php:749
+msgid "Activate certificate generation functionality"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:758
+msgid "Automatically check the checkbox in the registration form to store personal data."
+msgstr ""
+
+#: corona-test-results-admin-settings.php:759
+msgid ""
+"This should only be set if your testing location requires all tested persons to give "
+"their consent to data storage beforehand.\n"
+"Otherwise, keep this off and get the person's consent each time before checking the "
+"checkbox in the registration form."
+msgstr ""
+
+#: corona-test-results-admin-settings.php:786
+msgid "the user who registered the test"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:787
+msgid "the user who sends the certificate"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:799
+msgid "e.g.: Ct value E-Gen XX.XX, Ct value ORF1 XX.XX"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:802
+msgid ""
+"This text will be displayed by default in the optional test details field in the "
+"certificate generation form.\n"
+"You can use it for example if you always supply the Ct values with the result, so you "
+"just have to fill in the values instead of the whole text."
+msgstr ""
+
+#: corona-test-results-admin-settings.php:805
+msgid "Custom fields are available as placeholders:"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:818
+msgid ""
+"One trade name per line. These names will appear as a select list when generating a "
+"certificate, with the first one selected by default."
+msgstr ""
+
+#: corona-test-results-admin-settings.php:857
+msgid ""
+"Depending on laws and regulations applicable to you, you may be legally required to "
+"state the actual legal basis and data protection regulations here."
+msgstr ""
+
+#: corona-test-results-admin-settings.php:859 corona-test-results-admin-settings.php:878
+#: corona-test-results-admin-settings.php:973
+msgid ""
+"You should adapt this text block to completely reflect your local laws and regulatory "
+"requirements."
+msgstr ""
+
+#: corona-test-results-admin-settings.php:915
+#, php-format
+msgid ""
+"You can use the placeholder %s to insert the content of the \"testing site\" field above."
+msgstr ""
+
+#: corona-test-results-admin-settings.php:926
+msgid ""
+"The Quick Check-In page helps to speed up the process of registering the personal data "
+"of the persons about to be tested. While they are wating for their turn, they can create "
+"a QR code containing their personal data, which can then be scanned by the testing "
+"personnel when registering the test."
+msgstr ""
+
+#: corona-test-results-admin-settings.php:941
+msgid "Display and compare two email address inputs to prevent typos"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:951
+msgid ""
+"Display a required checkbox with the following text, e.g. for data protection agreement"
+msgstr ""
+
+#. translators: list of allowed HTML tags
+#: corona-test-results-admin-settings.php:967
+#, php-format
+msgid "Allowed HTML tags: %s"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:983
+msgid ""
+"You can print and put up this poster in the waiting area. It contains the URL and a QR "
+"code to the page set above."
+msgstr ""
+
+#: corona-test-results-admin-settings.php:985
+msgid ""
+"After changing the target page above, the settings have to be saved first before the new "
+"URL appears on the generated poster."
+msgstr ""
+
+#: corona-test-results-admin-settings.php:991
+msgid "Headline"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:1002
+msgid "Text block"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:1015
+msgid "Print Poster"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:1024
+msgid ""
+"Enable services or interfaces for data transfer, e.g. official contact tracing apps."
+msgstr ""
+
+#: corona-test-results-admin-settings.php:1029
+msgid ""
+"Depending on laws and regulations applicable to you, you may be legally required to "
+"inform all tested persons about any data being shared with third parties and/or get "
+"their written consent by signing a privacy policy."
+msgstr ""
+
+#: corona-test-results-admin-settings.php:1058 corona-test-results-admin-settings.php:1073
+#, php-format
+msgid "Absolute path to %s file:"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:1085 corona-test-results-admin.php:1418
+msgid "Passphrase for .key file:"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:1093
+msgid "Store key passphrase clientside"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:1098
+msgid ""
+"Storing the passphrase clientside instead of in the settings is more secure than storing "
+"all authentification details together on the server. You will have to enter the key "
+"passphrase in every new client when transferring the data for the first time."
+msgstr ""
+
+#: corona-test-results-admin-settings.php:1102
+msgid "Verifying authentication data…"
+msgstr ""
+
+#. translators: opening and closing tags linking to the certificate settings tab
+#: corona-test-results-admin-settings.php:1124
+#, php-format
+msgid ""
+"The %scertificate generation functionality%s must be enabled in order to be able to use "
+"this integration."
+msgstr ""
+
+#: corona-test-results-admin-settings.php:1145
+msgid ""
+"For reasons incomprehensible to us, despite working functionality and already having "
+"successfully connected users, T-Systems is currently refusing further integrations when "
+"using our plug-in. We will try to clarify this issue, but for the time being we can only "
+"advise you to manually use the alternative Corona-Warn-App portal solution in addition "
+"to our plug-in."
+msgstr ""
+
+#. translators: %s: 1) PHP version needed to activate this feature 2) current PHP version
+#: corona-test-results-admin-settings.php:1156
+#, php-format
+msgid ""
+"PHP version %s or higher is needed in order to be able to use this feature. You are "
+"currently running on PHP %s and will need to ugprade."
+msgstr ""
+
+#: corona-test-results-admin-settings.php:1165
+msgid "disabled"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:1166
+msgid "test environment (\"WRU\")"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:1167
+msgid "production environment"
+msgstr ""
+
+#. translators: %s: the opening and closing tags for linking to the documentation
+#: corona-test-results-admin-settings.php:1173
+#, php-format
+msgid ""
+"Please follow the %sofficial onboarding documentation, option 2 (German)%s in order to "
+"register with T-Sytems (the service provider for the integration of test results with "
+"the CWA), inform yourself about all requirements and obtain your key and certificate "
+"files needed for authentication with their servers. You may skip the section "
+"\"Entwicklung QR-Code & Backend-Integration\", as this is the part that will be "
+"fullfilled by the plugin."
+msgstr ""
+
+#: corona-test-results-admin-settings.php:1178
+msgid ""
+"Please understand that we as the plugin author do not have any influence on this third-"
+"party process and can therefore not provide any support."
+msgstr ""
+
+#: corona-test-results-admin-settings.php:1181
+msgid ""
+"You can either upload the files to your server manually, to a directory outside of the "
+"web root with read-only access for the PHP process, and specify absolute paths to the "
+"files. Or you can upload them here for storage in a directory protected by htaccess "
+"restriction (less secure)."
+msgstr ""
+
+#: corona-test-results-admin-settings.php:1222
+#, php-format
+msgid ""
+"Administrators (or more precisely: users with the capability %s) will always have access "
+"to all plugin pages, including settings.\n"
+"You can select additional users here (except with role %s) to give them access to the "
+"code registration and assignation pages as well as some individual settings (but not all "
+"of the global plugin settings)."
+msgstr ""
+
+#: corona-test-results-admin-settings.php:1243
+msgid "You can now use all features based on encryption functionality."
+msgstr ""
+
+#: corona-test-results-admin-settings.php:1244
+msgid ""
+"You need to give your consent to the Data Protection terms below in order to activate "
+"all features based on encryption functionality."
+msgstr ""
+
+#. translators: %s: 1) WordPress version needed to activate encryption 2) current WordPress version
+#: corona-test-results-admin-settings.php:1252
+#, php-format
+msgid ""
+"WordPress version %s or higher is needed in order to be able to use encryption "
+"functionality. You are currently running on WordPress %s and will need to ugprade."
+msgstr ""
+
+#: corona-test-results-admin-settings.php:1260
+msgid "The encryption key is present!"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:1268
+msgid "The key has been generated successfully!"
+msgstr ""
+
+#. translators: %s: wp-config.php wrapped in <code></code>
+#: corona-test-results-admin-settings.php:1274
+#, php-format
+msgid ""
+"The key could not be saved automatically. Please add the following lines to your %s file "
+"in the root directory of your WordPress installation."
+msgstr ""
+
+#: corona-test-results-admin-settings.php:1278
+msgid "Display code (Do not show this to anyone else!)"
+msgstr ""
+
+#. translators: %s: checkbox and label markup
+#: corona-test-results-admin-settings.php:1322
+#, php-format
+msgid ""
+"In an inherently open system like WordPress, it is difficult to store data securely "
+"without imposing on the end user the need to supply a security key with every data "
+"request. We do our best to protect the personal data collected through the plugin by "
+"encrypting it. However, there can be no absolute guarantee of data security within this "
+"environment. There is always the possibility of an attacker or a malicious plugin or "
+"theme trying to steal and decrypt the stored data. The plugin author, 48DESIGN GmbH, "
+"rejects any liability claims in the event of data theft. You should only install plugins "
+"that are absolutely necessary and trustworthy and always keep all plugins, themes and "
+"the WordPress core version up-to-date.\n"
+"\n"
+"\t%s I understand these security implications, accept the terms and am aware that I must "
+"inform the end user (tested person) about the storage of their data and its scope in "
+"accordance with the data protection regulations applicable to me. I would like to enable "
+"all plugin functionality that involves the storage of personal data.%s"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:1333
+msgid "When the plugin is deleted:"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:1337
+msgid "Delete all associated data from the database"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:1341
+msgid "Delete encryption key"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:1345
+msgid "Delete plugin settings"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:1349
+msgid "Move associated pages to trash"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:1365
+#, php-format
+msgid "show appointments for %s additional day(s)"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:1370
+msgid "0 = only show appointments for the current day"
+msgstr ""
+
+#: corona-test-results-admin-settings.php:1378
+msgid ""
+"These settings take effect if you activated at least one booking integration below and "
+"apply to all the active integrations."
+msgstr ""
+
+#: corona-test-results-admin-settings.php:1387
+msgid ""
+"You can select third-party booking tools here to integrate into the test registration "
+"form. You will then be able to select bookings and transfer the personal data into the "
+"form with one click. Please note that we do not endorse and cannot provide support for "
+"the usage of any third-party software. You should make yourself familiar with the "
+"possible implications on data protection regulations, as the data entered during the "
+"booking process may or may not be stored in the clear, depending on the third-party "
+"software."
+msgstr ""
+
+#. translators: opening and closing tags of mailto link
+#: corona-test-results-admin-settings.php:1395
+#, php-format
+msgid ""
+"Currently, we only support bookly, but you can %slet us know%s which plugin or tool "
+"you're using and we'll look into it and might even be able to make you an offer for "
+"prioritized integration."
+msgstr ""
+
+#. translators: %s: booking tool name, linking to either the plugin details, or the plugin overview page
+#: corona-test-results-admin-settings.php:1414
+#, php-format
+msgid "%s is not installed or activated"
+msgstr ""
+
+#. translators: %s: booking tool name
+#: corona-test-results-admin-settings.php:1420
+#, php-format
+msgid "Show %s appointments in test registration form"
+msgstr ""
+
+#. translators: %s: (1) opening link tag, (2) formatted string "Premium", (3) closing link tag
+#: corona-test-results-admin-settings.php:1438
+#, php-format
+msgid ""
+"After you %sbuy the %s version%s, enter your license key here to register it to this "
+"domain."
+msgstr ""
+
+#: corona-test-results-admin-settings.php:1456
+msgid ""
+"The license will be bound to the current domain of this WordPress installation. Once "
+"activated, it will only be possible to activate it on this domain again in the future "
+"and cannot be transferred to a different domain."
+msgstr ""
+
+#. translators: Plugin author name linking to the plugin author URI
+#: corona-test-results-admin-settings.php:1460
+#, php-format
+msgid ""
+"By trying to activate a license, you agree to share the entered license key and the "
+"current domain of this WordPress installation with %s."
+msgstr ""
+
+#: corona-test-results-admin.php:101 corona-test-results-admin.php:119
+#: corona-test-results-admin.php:696
+msgid "Test Result Assignation"
+msgstr ""
+
+#: corona-test-results-admin.php:102 corona-test-results-admin.php:167
+msgid "Test Results"
+msgstr ""
+
+#: corona-test-results-admin.php:120
+msgid "Assign results"
+msgstr ""
+
+#: corona-test-results-admin.php:127 corona-test-results-admin.php:128
+msgid "Register test"
+msgstr ""
+
+#: corona-test-results-admin.php:146
+msgid "Test Results Retrieval Page"
+msgstr ""
+
+#. translators: %s: test result status
+#: corona-test-results-admin.php:153
+#, php-format
+msgid "Result Page Content: %s"
+msgstr ""
+
+#: corona-test-results-admin.php:156
+msgid "Quick Check-In Page"
+msgstr ""
+
+#: corona-test-results-admin.php:195
+#, php-format
+msgid ""
+"Data related to the %s plugin cannot be exported or erased using this WordPress core "
+"functionality, as the personal data (including the email address) is stored in encrypted "
+"form. You will need to identify the data by its unique code and export/delete it "
+"manually."
+msgstr ""
+
+#: corona-test-results-admin.php:324
+msgid "This feature is only available in the Premium version of the plugin."
+msgstr ""
+
+#: corona-test-results-admin.php:325
+msgid "Loading codes…"
+msgstr ""
+
+#: corona-test-results-admin.php:326
+msgid "Failed fetching additional table rows!"
+msgstr ""
+
+#: corona-test-results-admin.php:328 corona-test-results-admin.php:1062
+#: corona-test-results-admin.php:1316
+msgid "Code"
+msgstr ""
+
+#: corona-test-results-admin.php:329 corona-test-results-admin.php:1063
+#: corona-test-results-admin.php:1101 corona-test-results-admin.php:1319
+msgid "Status"
+msgstr ""
+
+#: corona-test-results-admin.php:330 corona-test-results-admin.php:340
+#: corona-test-results-admin.php:1064 corona-test-results-admin.php:1170
+msgid "Test Date"
+msgstr ""
+
+#: corona-test-results-admin.php:335
+msgid "[for on-site safekeeping!]"
+msgstr ""
+
+#: corona-test-results-admin.php:337 corona-test-results-admin.php:1329
+#: corona-test-results-admin.php:2101
+#: premium/corona-test-results-shortcodes.premium.php:149
+msgid "Surname"
+msgstr ""
+
+#: corona-test-results-admin.php:338 corona-test-results-admin.php:1332
+#: corona-test-results-admin.php:2105
+#: premium/corona-test-results-shortcodes.premium.php:153
+msgid "First Name"
+msgstr ""
+
+#: corona-test-results-admin.php:339 corona-test-results-admin.php:1326
+#: corona-test-results-admin.php:2109
+#: premium/corona-test-results-shortcodes.premium.php:157
+msgid "Date of Birth"
+msgstr ""
+
+#: corona-test-results-admin.php:341 corona-test-results-admin.php:1335
+#: corona-test-results-admin.php:2153
+#: premium/corona-test-results-shortcodes.premium.php:161
+msgid "Email address"
+msgstr ""
+
+#: corona-test-results-admin.php:342
+msgid "Test kit"
+msgstr ""
+
+#: corona-test-results-admin.php:344
+msgid "PIN"
+msgstr ""
+
+#: corona-test-results-admin.php:345
+#, php-format
+msgid "Online test results powered by %s"
+msgstr ""
+
+#. translators: File name for the Certificate PDF, %s: test code; file extension is appended automatically
+#: corona-test-results-admin.php:350 corona-test-results-admin.php:1162
+msgid "Generate certificate"
+msgstr ""
+
+#: corona-test-results-admin.php:351
+#, php-format
+msgid "Certificate_%s"
+msgstr ""
+
+#: corona-test-results-admin.php:352
+msgid ""
+"The personal data cannot be saved, because the tested person didn't request a "
+"certificate and consent to the storage of data when the test was taken."
+msgstr ""
+
+#: corona-test-results-admin.php:353 corona-test-results-admin.php:391
+#: corona-test-results-admin.php:1117
+msgid "Certificate has already been sent"
+msgstr ""
+
+#: corona-test-results-admin.php:354
+msgid "Certificate of a"
+msgstr ""
+
+#. translators: Inflected form: (Certificate of a) positive (antigen test result certified for)
+#: corona-test-results-admin.php:357
+msgid "positive"
+msgstr ""
+
+#. translators: Inflected form: (Certificate of a) negative (antigen test result certified for)
+#: corona-test-results-admin.php:359
+msgid "negative"
+msgstr ""
+
+#. translators: Inflected form: (Certificate of a) invalid (antigen test result certified for)
+#: corona-test-results-admin.php:361
+msgid "invalid"
+msgstr ""
+
+#. translators: %s: (Certificate of a) positive (antigen test result certified for)
+#: corona-test-results-admin.php:364
+#, php-format
+msgid "%s antigen test result"
+msgstr ""
+
+#: corona-test-results-admin.php:365
+msgid "Certificate on the presence of a SARS-CoV-2 antigen test"
+msgstr ""
+
+#: corona-test-results-admin.php:367 corona-test-results-admin.php:1338
+#: corona-test-results-admin.php:2157
+#: premium/corona-test-results-shortcodes.premium.php:174
+msgid "Phone number"
+msgstr ""
+
+#: corona-test-results-admin.php:368
+msgid "(and email address, if applicable)"
+msgstr ""
+
+#: corona-test-results-admin.php:369
+msgid "certified for"
+msgstr ""
+
+#: corona-test-results-admin.php:370
+msgid "The test was conducted by"
+msgstr ""
+
+#: corona-test-results-admin.php:371 corona-test-results-admin.php:1341
+#: corona-test-results-admin.php:2161
+#: premium/corona-test-results-shortcodes.premium.php:178
+msgid "Address"
+msgstr ""
+
+#: corona-test-results-admin.php:372 corona-test-results-admin.php:1344
+#: corona-test-results-admin.php:2165
+#: premium/corona-test-results-shortcodes.premium.php:189
+msgid "Passport number"
+msgstr ""
+
+#: corona-test-results-admin.php:373
+msgid "(house no., street, zip code, city)"
+msgstr ""
+
+#: corona-test-results-admin.php:374
+msgid "Testing Site"
+msgstr ""
+
+#: corona-test-results-admin.php:376
+msgid "Full Name"
+msgstr ""
+
+#: corona-test-results-admin.php:377
+msgid "Trade name of test kit used"
+msgstr ""
+
+#: corona-test-results-admin.php:378 corona-test-results-admin.php:1322
+msgid "Test date / time"
+msgstr ""
+
+#: corona-test-results-admin.php:379
+msgid "Signature"
+msgstr ""
+
+#: corona-test-results-admin.php:380
+msgid "(executing person)"
+msgstr ""
+
+#: corona-test-results-admin.php:381
+msgid "Stamp"
+msgstr ""
+
+#: corona-test-results-admin.php:382
+msgid "(if available)"
+msgstr ""
+
+#: corona-test-results-admin.php:387
+msgid "No booked appointments"
+msgstr ""
+
+#: corona-test-results-admin.php:392 corona-test-results-admin.php:1118
+msgid "Certificate has not yet been sent"
+msgstr ""
+
+#: corona-test-results-admin.php:395 corona-test-results-admin.php:1133
+#, php-format
+msgid "Data transferred to %s"
+msgstr ""
+
+#: corona-test-results-admin.php:396 corona-test-results-admin.php:1134
+#, php-format
+msgid "Data not yet transferred to %s"
+msgstr ""
+
+#: corona-test-results-admin.php:402
+msgid ""
+"In order to use this Premium feature, you have to activate your license in the plugin "
+"settings first."
+msgstr ""
+
+#. translators: Address format when reading ADR field without LABEL attribute from a vCard QR code. Available placeholders: %streetandnumber, %city, %postcode, %state, %country
+#. translators: Address format for Quick Check-In form autocomplete. Placeholders: %streetandnumber, %postcode, %city, %state, %country
+#: corona-test-results-admin.php:406 premium/corona-test-results-shortcodes.premium.php:22
+msgid ""
+"%streetandnumber\n"
+"%city, %state %postcode"
+msgstr ""
+
+#: corona-test-results-admin.php:409
+msgid "rear-facing camera"
+msgstr ""
+
+#: corona-test-results-admin.php:410
+msgid "front-facing camera"
+msgstr ""
+
+#: corona-test-results-admin.php:445
+msgid "Select Image"
+msgstr ""
+
+#: corona-test-results-admin.php:446
+msgid "Upload"
+msgstr ""
+
+#: corona-test-results-admin.php:447
+msgid "incorrect file type"
+msgstr ""
+
+#: corona-test-results-admin.php:448
+msgid "incorrect format"
+msgstr ""
+
+#: corona-test-results-admin.php:449
+msgid "An error occurred while uploading the file. Please try again."
+msgstr ""
+
+#: corona-test-results-admin.php:450 premium/corona-test-results-admin.premium.php:784
+#: premium/corona-test-results-admin.premium.php:790
+msgid "Authentication data could not be verified"
+msgstr ""
+
+#: corona-test-results-admin.php:627 corona-test-results-admin.php:1450
+#: corona-test-results-admin.php:1721
+msgid "Sorry, you are not allowed to access this page."
+msgstr ""
+
+#: corona-test-results-admin.php:668
+msgid "Evaluated"
+msgstr ""
+
+#: corona-test-results-admin.php:730
+msgid "Filter codes:"
+msgstr ""
+
+#: corona-test-results-admin.php:731 corona-test-results-admin.php:2246
+msgid "Export to CSV"
+msgstr ""
+
+#: corona-test-results-admin.php:1076
+#, php-format
+msgid "There are no codes with a status of &quot;%s&quot; yet"
+msgstr ""
+
+#. translators: %s: Negative
+#: corona-test-results-admin.php:1182
+#, php-format
+msgid "Mark as %s"
+msgstr ""
+
+#. translators: %s: "Mark as Negative"
+#: corona-test-results-admin.php:1216
+#, php-format
+msgid ""
+"&quot;%s&quot; will not trigger a database update on its own. You have to confirm this "
+"action by saving the changes."
+msgstr ""
+
+#: corona-test-results-admin.php:1221
+msgid ""
+"Codes in the Trash cannot be retrieved from the frontend, but will not be used again "
+"when generating a new code. Delete codes permanently from the Trash in order to release "
+"them for future reuse."
+msgstr ""
+
+#: corona-test-results-admin.php:1260
+msgid ""
+"This code did not have a PIN yet, so this newly generated PIN will be used. Please note "
+"it down before proceeding. If you intend to send the certificate via email rather than "
+"printing it, please also provide the PIN to the tested person separately."
+msgstr ""
+
+#: corona-test-results-admin.php:1271
+#, php-format
+msgid ""
+"Please enter the PIN for code %s\n"
+"in order to decrypt the data:"
+msgstr ""
+
+#: corona-test-results-admin.php:1283
+msgid "The PIN you entered could not be verified."
+msgstr ""
+
+#: corona-test-results-admin.php:1291
+msgid "The status of this code has been updated in the database automatically."
+msgstr ""
+
+#: corona-test-results-admin.php:1300
+msgid "An error occurred while saving the data. Please try again."
+msgstr ""
+
+#: corona-test-results-admin.php:1309
+msgid "An error occurred while sending the certificate email. Please try again."
+msgstr ""
+
+#: corona-test-results-admin.php:1347
+msgid "Test Details"
+msgstr ""
+
+#: corona-test-results-admin.php:1348
+msgid "e.g. Ct values"
+msgstr ""
+
+#: corona-test-results-admin.php:1350 corona-test-results-admin.php:2079
+msgid "Test kit trade name"
+msgstr ""
+
+#: corona-test-results-admin.php:1354 corona-test-results-admin.php:2084
+msgid "Not provided via settings"
+msgstr ""
+
+#: corona-test-results-admin.php:1377
+msgid ""
+"Once a certificate has been emailed, the status of this code cannot be changed anymore."
+msgstr ""
+
+#: corona-test-results-admin.php:1380
+msgid "download"
+msgstr ""
+
+#: corona-test-results-admin.php:1381
+msgid "download (without PIN)"
+msgstr ""
+
+#: corona-test-results-admin.php:1382
+msgid "email certificate"
+msgstr ""
+
+#: corona-test-results-admin.php:1383
+msgid "save"
+msgstr ""
+
+#: corona-test-results-admin.php:1396
+msgid "Data transfer failed with the following error:"
+msgstr ""
+
+#: corona-test-results-admin.php:1406
+msgid "Data transfer successful."
+msgstr ""
+
+#: corona-test-results-admin.php:1424
+msgid "transfer data"
+msgstr ""
+
+#: corona-test-results-admin.php:1426
+msgid ""
+"Changes to the data above will not apply to the data transfer, as the data originally "
+"entered has already been encoded into the patient's QR code."
+msgstr ""
+
+#: corona-test-results-admin.php:1428
+msgid ""
+"Once the data has been transferred, the status of this code cannot be changed anymore."
+msgstr ""
+
+#: corona-test-results-admin.php:1585
+msgid "Support"
+msgstr ""
+
+#. translators: used as link text in the review notice ("... please take some time to _rate and review_ the plugin ...") as well as standalone on the plugin overview page and should fit both cases gramatically
+#: corona-test-results-admin.php:1592
+msgid "rate and review"
+msgstr ""
+
+#: corona-test-results-admin.php:1632
+msgid "Test Results Settings Page"
+msgstr ""
+
+#: corona-test-results-admin.php:1663
+#, php-format
+msgid ""
+"You have been using the Corona Test Results plugin for a while now. If you like it or "
+"have some feedback to share, please take a minute to %s the plugin."
+msgstr ""
+
+#: corona-test-results-admin.php:1716
+msgid ""
+"You are using an outdated browser that does not perform very well, especially during "
+"batch PDF generation. If you experience long processing times, freezing of the browser "
+"window or failing PDF generation, please switch to a modern browser."
+msgstr ""
+
+#. translators: %s: "Test Results Settings Page" with link
+#: corona-test-results-admin.php:1733
+#, php-format
+msgid ""
+"Not all result pages are set. Please check the %s and select or create the pages for the "
+"result retrieval form and result contents."
+msgstr ""
+
+#: corona-test-results-admin.php:1735
+msgid ""
+"The test results retrieval page has not yet been published and will not be accessible to "
+"visitors of the provided URL."
+msgstr ""
+
+#: corona-test-results-admin.php:1893
+msgid "An error occurred during code generation. Please try again."
+msgstr ""
+
+#. translators: %s: "Test Results Settings Page" with link
+#: corona-test-results-admin.php:1896
+#, php-format
+msgid "Please go to the %s and either increase the code length or reduce your block list."
+msgstr ""
+
+#: corona-test-results-admin.php:1898
+msgid "No valid code could be generated after multiple tries."
+msgstr ""
+
+#: corona-test-results-admin.php:1901
+msgid ""
+"The code that you entered either already exists, or there was an error entering it into "
+"the database."
+msgstr ""
+
+#: corona-test-results-admin.php:1905
+msgid "Not all codes could be generated after multiple tries."
+msgstr ""
+
+#: corona-test-results-admin.php:1913
+msgid "Test Registration"
+msgstr ""
+
+#: corona-test-results-admin.php:1928 corona-test-results-admin.php:1934
+msgid "Scan from QR Code"
+msgstr ""
+
+#: corona-test-results-admin.php:1934
+msgid "Start Scan"
+msgstr ""
+
+#: corona-test-results-admin.php:1937
+msgid ""
+"Scan vCard formatted data from a QR code. Some official contact tracing apps like &quot;"
+"Corona-Warn-App&quot; used in Germany support the creation of a QR code containing the "
+"tested person's personal data.\n"
+"You can scan this data here instead of having to type in the data manually. (webcam or "
+"compatible scanning device required)"
+msgstr ""
+
+#: corona-test-results-admin.php:1955
+msgid ""
+"No video input device could be found. Please connect a web browser compatible device, "
+"close this message and try again."
+msgstr ""
+
+#: corona-test-results-admin.php:1961
+msgid "Please allow browser access to your camera for this page."
+msgstr ""
+
+#: corona-test-results-admin.php:1967
+msgid "Browser access to your camera was denied."
+msgstr ""
+
+#: corona-test-results-admin.php:1973
+msgid "Browser access to your camera failed."
+msgstr ""
+
+#: corona-test-results-admin.php:1981
+msgid "Input Device:"
+msgstr ""
+
+#: corona-test-results-admin.php:1986
+msgid "Flip horizontally ⇄"
+msgstr ""
+
+#: corona-test-results-admin.php:1989
+msgid "Flip vertically ⇵"
+msgstr ""
+
+#. translators: name of appointment booking tool
+#: corona-test-results-admin.php:2013
+#, php-format
+msgid "From %s appointments"
+msgstr ""
+
+#: corona-test-results-admin.php:2023
+msgid "Filter by name or Appointment No. (#123)"
+msgstr ""
+
+#: corona-test-results-admin.php:2032
+msgid "Loading appointments…"
+msgstr ""
+
+#: corona-test-results-admin.php:2039
+msgid "apply"
+msgstr ""
+
+#: corona-test-results-admin.php:2056
+#, php-format
+msgid ""
+"This list contains today's bookings%s and will be updated in the background periodically."
+msgstr ""
+
+#. translators: %d: number of future days to show appointments for according to setting "booking_futuredays"
+#: corona-test-results-admin.php:2061
+#, php-format
+msgid " (+%d day)"
+msgid_plural " (+%d days)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: corona-test-results-admin.php:2133
+msgid "Code for retrieval"
+msgstr ""
+
+#: corona-test-results-admin.php:2144
+msgid "Certificate requested?"
+msgstr ""
+
+#: corona-test-results-admin.php:2145
+msgid "Show additional fields and store data"
+msgstr ""
+
+#: corona-test-results-admin.php:2149
+msgid "Certificate PIN"
+msgstr ""
+
+#: corona-test-results-admin.php:2150
+msgid "(generated automatically)"
+msgstr ""
+
+#: corona-test-results-admin.php:2176
+#: premium/corona-test-results-shortcodes.premium.php:198
+msgid "Consent not given"
+msgstr ""
+
+#: corona-test-results-admin.php:2177
+#: premium/corona-test-results-shortcodes.premium.php:199
+msgid "Transfer anonymously"
+msgstr ""
+
+#: corona-test-results-admin.php:2178
+#: premium/corona-test-results-shortcodes.premium.php:203
+msgid "Transfer with personal data"
+msgstr ""
+
+#: corona-test-results-admin.php:2191
+msgid "Generate code and PDF"
+msgstr ""
+
+#: corona-test-results-admin.php:2192
+msgid "Regenerate PDF"
+msgstr ""
+
+#: corona-test-results-admin.php:2193
+msgid "Print label"
+msgstr ""
+
+#: corona-test-results-admin.php:2194
+msgid "Register a new test"
+msgstr ""
+
+#: corona-test-results-admin.php:2197
+msgid "The personal data is never sent to or stored on the server."
+msgstr ""
+
+#: corona-test-results-admin.php:2201
+msgid ""
+"When certificate generation is requested, all personal data will be stored on the server "
+"in encrypted form."
+msgstr ""
+
+#: corona-test-results-admin.php:2207
+msgid ""
+"Generation of the document is done completely in your browser.\n"
+"Immediately save or print out the document, as it will not be accessible in your browser "
+"at a later time."
+msgstr ""
+
+#: corona-test-results-admin.php:2211
+msgid ""
+"If the generated document does not open, set your browser to allow popups for this "
+"website."
+msgstr ""
+
+#: corona-test-results-admin.php:2215
+msgid "Batch generation"
+msgstr ""
+
+#: corona-test-results-admin.php:2216
+msgid ""
+"Generate multiple codes and documents, e.g. if there's no printer at the testing "
+"location, or you make home visits for testing."
+msgstr ""
+
+#: corona-test-results-admin.php:2220
+msgid ""
+"PDF generation can take quite some time or even fail for more than a few hundreds of "
+"codes. If you plan to export codes to PDF instead of CSV, use a reasonably sized batch "
+"size of about 250 and do multiple runs if you need a larger number of codes."
+msgstr ""
+
+#. translators: %s: input field for numeric value
+#: corona-test-results-admin.php:2226
+#, php-format
+msgid "Generate %s codes"
+msgstr ""
+
+#: corona-test-results-admin.php:2230
+msgid "Override date:"
+msgstr ""
+
+#. translators: %d: maximum number of days
+#: corona-test-results-admin.php:2235
+#, php-format
+msgid "(max. %d days into the future)"
+msgstr ""
+
+#: corona-test-results-admin.php:2239
+msgid "Generate"
+msgstr ""
+
+#: corona-test-results-admin.php:2244
+msgid "Last generated batch:"
+msgstr ""
+
+#: corona-test-results-admin.php:2247
+msgid "Export to PDF"
+msgstr ""
+
+#: corona-test-results-admin.php:2468 corona-test-results-global.php:205
+#: corona-test-results-global.php:452
+msgid "Pending"
+msgstr ""
+
+#: corona-test-results-admin.php:2481 premium/corona-test-results-admin.premium.php:57
+msgid "The code that you entered has an invalid format."
+msgstr ""
+
+#: corona-test-results-admin.php:2829
+#, php-format
+msgid ""
+"%sBookly Pro%s is required in order to save birth date and address with the booking."
+msgstr ""
+
+#: corona-test-results-admin.php:2862
+msgid "outstanding payment"
+msgstr ""
+
+#: corona-test-results-admin.php:2917
+msgid "Corona Test Results (Premium)"
+msgstr ""
+
+#: corona-test-results-global.php:21
+msgid "Dear patient,"
+msgstr ""
+
+#: corona-test-results-global.php:22
+msgid ""
+"the result for your test taken on {{testdate}} will be ready within 24 hours to up to 3 "
+"days and can then be retrieved at"
+msgstr ""
+
+#: corona-test-results-global.php:23
+msgid ""
+"using the following code. Alternatively, you can scan the QR code with your mobile "
+"device to get directly to your result."
+msgstr ""
+
+#: corona-test-results-global.php:24
+msgid ""
+"Data Privacy Notice:\n"
+"The security of your data is important to us. Therefore, it is not possible to draw any "
+"conclusions about your person using the online result check."
+msgstr ""
+
+#: corona-test-results-global.php:25
+msgid ""
+"Data Privacy Notice:\n"
+"The security of your data is important to us. Personal data will be stored in encrypted "
+"form and will not show up on the online result check. When you receive your certificate "
+"by email, you will need the PIN provided on this document in order to open the PDF file."
+msgstr ""
+
+#: corona-test-results-global.php:34
+msgid ""
+"SARS-CoV-2 is an infection with a pathogen that may be reportable depending on your "
+"local regulatory requirements. If this is the case, the test-executing agency is "
+"obligated to immediately notify the responsible public health department in the event of "
+"a positive test result. This includes forwarding the personal data collected in this "
+"form to the competent health authority. The legal basis and the data protection "
+"regulations applicable to you vary depending on the country and/or state."
+msgstr ""
+
+#: corona-test-results-global.php:35
+msgid ""
+"Altering this certificate or attempting to perform verification with false "
+"identification documents is a misdemeanor punishable by a fine."
+msgstr ""
+
+#: corona-test-results-global.php:36
+msgid "Your Corona test certificate"
+msgstr ""
+
+#: corona-test-results-global.php:37
+msgid ""
+"Hello,\n"
+"\n"
+"please find attached your Corona test certificate. You will find the PIN required to "
+"open the PDF file on the document you received when you took the test.\n"
+"\n"
+"-----\n"
+"{{testingsite}}"
+msgstr ""
+
+#: corona-test-results-global.php:41
+msgid ""
+"Data is not being transferred to any systems via this form and stays encoded in the QR "
+"Code on your device or on paper. I agree that my data will be transferred and stored "
+"when the code is scanned at the testing station to fulfill the testing process."
+msgstr ""
+
+#: corona-test-results-global.php:43
+msgid ""
+"In order to speed up the testing process, please use your mobile device to visit the "
+"following page. This will allow you to save your personal data as a QR code that can be "
+"scanned by the testing personnel."
+msgstr ""
+
+#: corona-test-results-global.php:206 corona-test-results-global.php:453
+msgid "Positive"
+msgstr ""
+
+#: corona-test-results-global.php:207 corona-test-results-global.php:454
+msgid "Negative"
+msgstr ""
+
+#: corona-test-results-global.php:208 corona-test-results-global.php:455
+msgid "Invalid"
+msgstr ""
+
+#: corona-test-results-global.php:241
+msgid "Test Result"
+msgstr ""
+
+#. translators: default results retrieval page URL slug
+#: corona-test-results-global.php:266
+msgid "testresult"
+msgstr ""
+
+#. translators: %s: 1) name of the site 2) name of the plugin
+#: corona-test-results-global.php:368
+#, php-format
+msgid "[%s] %s plugin has been uninstalled, but data has not been deleted"
+msgstr ""
+
+#. translators: %s: 1) name of the plugin, 2) name of the site, 3) "Security" tab name, 4) database table name
+#: corona-test-results-global.php:370
+#, php-format
+msgid ""
+"The plugin \"%s\" has been uninstalled from your WordPress site \"%s\", but to protect "
+"against data loss, no data has been deleted from the database. In order to erase all "
+"associated data from the database, you can either install the plugin again and check the "
+"checkbox for data deletion in the \"%s\" tab of the plugin settings before you delete "
+"the plugin again, or you can manually drop the table `%s` from the database."
+msgstr ""
+
+#: corona-test-results-shortcodes.php:117
+msgid "check"
+msgstr ""
+
+#: corona-test-results-shortcodes.php:198
+msgid "Unknown"
+msgstr ""
+
+#. translators: %s: entered code
+#: corona-test-results-shortcodes.php:226
+#, php-format
+msgid "Status for your code %s:"
+msgstr ""
+
+#: corona-test-results-shortcodes.php:255
+msgid "The code you entered is invalid. Please check that you typed it correctly."
+msgstr ""
+
+#: corona-test-results-shortcodes.php:256
+msgid ""
+"The maximum number of requests has been exceeded. Please wait for some time before "
+"trying again."
+msgstr ""
+
+#: corona-test-results-shortcodes.php:314
+msgid "Request could not be verified"
+msgstr ""
+
+#: corona-test-results-shortcodes.php:314
+msgid "Access denied"
+msgstr ""
+
+#: premium/corona-test-results-admin.premium.php:81
+msgid "The code that you entered already exists."
+msgstr ""
+
+#. translators: Address format for bookings. Available placeholders: %firstname, %surname, %addition, %number, %street, %city, %postcode, %state, %country
+#: premium/corona-test-results-admin.premium.php:230
+msgid ""
+"%addition\n"
+"%number %street\n"
+"%city, %postcode %state\n"
+"%country"
+msgstr ""
+
+#. translators: support link with text "contact us"
+#: premium/corona-test-results-admin.premium.php:487
+#, php-format
+msgid ""
+"Your license could not be verified and may have expired. Try activating the plugin again "
+"or %s if there is an issue."
+msgstr ""
+
+#: premium/corona-test-results-admin.premium.php:708
+msgid "Data has already been transferred to this interface."
+msgstr ""
+
+#: premium/corona-test-results-admin.premium.php:773
+msgid "No data transfer was requested for this interface."
+msgstr ""
+
+#: premium/corona-test-results-admin.premium.php:792
+msgid "Authentication data verified successfully."
+msgstr ""
+
+#: premium/corona-test-results-shortcodes.premium.php:23
+msgid "The email address you entered does not appear to be valid."
+msgstr ""
+
+#: premium/corona-test-results-shortcodes.premium.php:24
+msgid ""
+"The two email address inputs do not match.\n"
+"Please check your email address for typos."
+msgstr ""
+
+#: premium/corona-test-results-shortcodes.premium.php:25
+msgid "You have to check the checkbox above in order to be able to create the QR code."
+msgstr ""
+
+#: premium/corona-test-results-shortcodes.premium.php:167
+msgid "Email address (repeat)"
+msgstr ""
+
+#: premium/corona-test-results-shortcodes.premium.php:257
+msgid ""
+"After generating the QR code, either keep this page open or save the image to your "
+"phone. The code will be scanned when registering your test."
+msgstr ""
+
+#: premium/corona-test-results-shortcodes.premium.php:260
+msgid "Generate QR code"
+msgstr ""
+
+#: premium/corona-test-results-shortcodes.premium.php:264
+msgid "Save QR code"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Corona Test Results"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://shop.48design.com/produkt/wordpress/corona-testergebnis-plugin-premium/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"🦠 <strong>Management of Corona/COVID-19 test results</strong> with online retrieval for "
+"test subjects 🦠 <strong>For medical practices, testing centers and laboratories:</"
+"strong> Generate random codes and print out a handout containing the URL and QR code for "
+"online retrieval of the result, as well as an on-site record containing the personal "
+"data and code to assign the test results when ready. 🦠 <strong>Inherent data protection:"
+"</strong> Personal data is not stored on the server if the certificate generation "
+"feature is not activated or no certificate is requested. Otherwise, all personal data is "
+"stored encrypted."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "48DESIGN GmbH"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.48design.com/"
+msgstr ""
